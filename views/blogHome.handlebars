@@ -1,0 +1,23 @@
+ <style>
+  #post:link, #post:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#post:hover, #post:active {
+  background-color: red;
+}
+ </style>
+ <div class="container">
+
+ {{#each blogs}}
+ <div class="blog" style="height:30vh;width:100%;margin:auto;border:1px solid black;">
+   <a href="/blogpost/{{this.slug}}" id="post"><h5>{{this.title}}</h5></a>
+   
+ </div> 
+  {{/each}}
+ </div>
