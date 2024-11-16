@@ -1,7 +1,7 @@
 {
   "name": "blogexpress",
   "version": "1.0.0",
-  "description": "This is a blog we created during CodeWithHarry express course",
+  "description": "This is an express app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
